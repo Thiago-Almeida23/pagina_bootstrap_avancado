@@ -1,0 +1,73 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: #A6763C;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #A6763C;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-meus-trabalhos .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #F3E4D7;
+}
+
+.section-title {
+    font-family: 'Pacifico', cursive;
+}
+
+.carousel-item img {
+    height: 600px;
+  }
+
+#sobre-mim, #trabalhos {
+    background-color: #F3E4D7;
+}
+
+.text-colored {
+    color: #A6763C;
+}
+
+.nav-meus-trabalhos .nav-link.active,
+#entre-em-contato button {
+    background-color: #A6763C;
+    color: #fff;
+}
+
+.nav-meus-trabalhos .nav-link:hover {
+    color: #A6763C;
+}
+
+.col-md-4 img {
+    height: 300px;
+  }
+
+  .col-md-3 img {
+    height: 250px;
+  }
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+    
+}
